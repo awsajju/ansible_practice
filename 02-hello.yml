@@ -1,5 +1,5 @@
 - name: Hello World playbook
-  host: WEB
+  hosts: WEB
   tasks:
   - name: Print Hello world
     ansible.builtin.ping:
