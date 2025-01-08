@@ -2,5 +2,5 @@
   hosts: WEB
   tasks:
   - name: Print Hello world
-    ansible.builtin.ping:
+    ansible.builtin.debug:
       msg: "Hellow world"
