@@ -1,0 +1,10 @@
+- name: Play1
+  hosts: local
+  tasks:
+    -name: Hello world
+      ansible.builtin.debug:
+        msg: "Hello world"
+    
+    - name: Gud morning
+      ansible.builtin.debug:
+        msg: "Good morning"
